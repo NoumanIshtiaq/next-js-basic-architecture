@@ -1,6 +1,6 @@
 import { Avatar, Box, Typography } from "@mui/material";
 
-export const IconTextCard = (props: any) => {
+ const IconTextCard = (props: any) => {
   const {
     heading,
     imageSrc,
@@ -22,3 +22,5 @@ export const IconTextCard = (props: any) => {
     </Box>
   );
 };
+
+export default IconTextCard
